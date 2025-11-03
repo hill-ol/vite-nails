@@ -126,7 +126,7 @@
 
 .hero-section {
   padding-top: 64px;
-  background-color: #ffcfe6;
+  background-color: #fff5f7;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -135,8 +135,12 @@
 .hero-container {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 5rem 1rem;
+  padding: 8rem 1rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-title {
@@ -153,7 +157,7 @@
 
 .hero-description {
   font-size: 1.25rem;
-  color: #4b5563;
+  color: #374151;
   margin-bottom: 2rem;
   max-width: 42rem;
   margin-left: auto;
@@ -200,7 +204,7 @@
 
 .services-section {
   padding: 5rem 0;
-  background-color: white;
+  background-color: #f8f9fa;
 }
 
 .services-grid {
@@ -210,14 +214,16 @@
 }
 
 .service-card {
-  background-color: #ffcfe6;
+  background-color: white;
+  border: 2px solid #ffc4dd;
   border-radius: 0.5rem;
   padding: 1.5rem;
-  transition: box-shadow 0.3s;
+  transition: all 0.3s;
 }
 
 .service-card:hover {
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 15px rgba(255, 67, 174, 0.15);
+  border-color: #ff43ae;
 }
 
 .service-name {
@@ -241,7 +247,7 @@
 
 .gallery-section {
   padding: 5rem 0;
-  background: linear-gradient(135deg, #e2d6ff 0%, #ffcfe6 50%, #cbe776 100%);
+  background-color: white;
 }
 
 .gallery-grid {
@@ -294,7 +300,7 @@
 
 .about-section {
   padding: 5rem 0;
-  background-color: white;
+  background-color: #f8f9fa;
 }
 
 .about-container {
@@ -312,7 +318,7 @@
 
 .booking-section {
   padding: 5rem 0;
-  background: linear-gradient(135deg, #ffcfe6 0%, #a4c7ff 100%);
+  background-color: #fff5f7;
 }
 
 .booking-container {
@@ -329,7 +335,8 @@
 }
 
 .calendly-placeholder {
-  background-color: #ffcfe6;
+  background-color: white;
+  border: 2px solid #ffc4dd;
   border-radius: 0.5rem;
   padding: 3rem;
   text-align: center;
@@ -398,11 +405,6 @@
 
 .social-link:hover {
   color: #ff43ae;
-}
-
-.copyright {
-  font-size: 0.875rem;
-  color: #9ca3af;
 }
 
 @media (min-width: 768px) {
