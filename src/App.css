@@ -6,8 +6,16 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .app {
   font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  width: 100%;
 }
 
 .navbar {
@@ -22,6 +30,7 @@
 }
 
 .navbar-container {
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -123,15 +132,18 @@
   background-color: #a21836;
 }
 
+/* Hero Section */
 .hero-section {
   padding-top: 64px;
   background-color: #fff5f7;
   min-height: 100vh;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .hero-container {
+  max-width: 1280px;
   margin: 0 auto;
   padding: 8rem 1rem;
   text-align: center;
@@ -180,6 +192,7 @@
 }
 
 .section-container {
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 1rem;
 }
@@ -202,6 +215,7 @@
 .services-section {
   padding: 5rem 0;
   background-color: #f8f9fa;
+  width: 100%;
 }
 
 .services-grid {
@@ -245,6 +259,7 @@
 .gallery-section {
   padding: 5rem 0;
   background-color: white;
+  width: 100%;
 }
 
 .gallery-grid {
@@ -298,6 +313,7 @@
 .about-section {
   padding: 5rem 0;
   background-color: #f8f9fa;
+  width: 100%;
 }
 
 .about-container {
@@ -316,6 +332,7 @@
 .booking-section {
   padding: 5rem 0;
   background-color: #fff5f7;
+  width: 100%;
 }
 
 .booking-container {
@@ -371,6 +388,7 @@
   background-color: #111827;
   color: white;
   padding: 2rem 0;
+  width: 100%;
 }
 
 .footer-container {
